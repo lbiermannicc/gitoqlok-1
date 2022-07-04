@@ -1,0 +1,65 @@
+[
+  {
+    "created": "2022-06-11T11:11:49.916Z",
+    "datasourceID": "GitHubConnector",
+    "id": "d63875a2-6a75-459d-8a3c-1fe14b39e57a",
+    "privileges": [
+      "change_owner",
+      "change_space",
+      "delete",
+      "list",
+      "read",
+      "update"
+    ],
+    "qArchitecture": 0,
+    "qConnectStatement": "CUSTOM CONNECT TO \"provider=QvWebConnectorPackage.exe;sourceType=GitHubConnector;NA - OAuth2={%3screenName%3:%3User: lbiermannicc%3,%3created%3:%311 Jun 2022 11:11:42%3,%3expires%3:%3N/A%3};\"",
+    "qCredentialsID": "71b28ba6-b1d6-4445-95f0-a3594ac2e760",
+    "qEngineObjectID": "d63875a2-6a75-459d-8a3c-1fe14b39e57a",
+    "qID": "d63875a2-6a75-459d-8a3c-1fe14b39e57a",
+    "qLogOn": 1,
+    "qName": "GitHub - lbiermannicc",
+    "qSeparateCredentials": false,
+    "qType": "QvWebConnectorPackage.exe",
+    "tenant": "-8rG9vdEVz_tAxkib5xYEBTVk4rjfcCv",
+    "updated": "2022-06-11T11:11:49.916Z",
+    "user": "62a064dab5d4b55450a8356c",
+    "version": "V1",
+    "name": "GitHub - lbiermannicc",
+    "type": "QvWebConnectorPackage.exe",
+    "connectionstring": "CUSTOM CONNECT TO \"provider=QvWebConnectorPackage.exe;sourceType=GitHubConnector;NA - OAuth2={%3screenName%3:%3User: lbiermannicc%3,%3created%3:%311 Jun 2022 11:11:42%3,%3expires%3:%3N/A%3};\""
+  },
+  {
+    "id": "ee6a390c-5d33-11e8-9c2d-fa7ae01bbebc",
+    "privileges": [
+      "read"
+    ],
+    "qArchitecture": 0,
+    "qConnectStatement": "CUSTOM CONNECT TO \"provider=qix-datafiles.exe;path=mydatafiles;\"",
+    "qEngineObjectID": "ee6a390c-5d33-11e8-9c2d-fa7ae01bbebc",
+    "qID": "ee6a390c-5d33-11e8-9c2d-fa7ae01bbebc",
+    "qLogOn": 0,
+    "qName": "MyDataFiles",
+    "qType": "qix-datafiles.exe",
+    "tenant": "-8rG9vdEVz_tAxkib5xYEBTVk4rjfcCv",
+    "name": "MyDataFiles",
+    "type": "qix-datafiles.exe",
+    "connectionstring": "CUSTOM CONNECT TO \"provider=qix-datafiles.exe;path=mydatafiles;\""
+  },
+  {
+    "id": "6f93cda1-15c4-4321-94e7-ac3cdcab5e4c",
+    "privileges": [
+      "read"
+    ],
+    "qArchitecture": 0,
+    "qConnectStatement": "CUSTOM CONNECT TO \"provider=qix-datafiles.exe;path=datafiles;\"",
+    "qEngineObjectID": "6f93cda1-15c4-4321-94e7-ac3cdcab5e4c",
+    "qID": "6f93cda1-15c4-4321-94e7-ac3cdcab5e4c",
+    "qLogOn": 0,
+    "qName": "DataFiles",
+    "qType": "qix-datafiles.exe",
+    "tenant": "-8rG9vdEVz_tAxkib5xYEBTVk4rjfcCv",
+    "name": "DataFiles",
+    "type": "qix-datafiles.exe",
+    "connectionstring": "CUSTOM CONNECT TO \"provider=qix-datafiles.exe;path=datafiles;\""
+  }
+]
